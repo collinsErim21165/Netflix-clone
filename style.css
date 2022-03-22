@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+/* style the header */
+header {
+    background-image: radial-gradient(circle,transparent,black), url("./Assets/header-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style the nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5px;
+}
+
+/* style the logo image */
+nav #logo img {
+    width: 150px;
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #e50914;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*style the header content */
+header .content {
+    padding: 0px 30px;
+    margin: auto;
+    text-align: center;
+}
+
+header .content h1 {
+    font-size: 3.125rem;
+}
+
+header .content p {
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+header .content span {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 620px;
+}
+
+/* style the header .content form */
+header .content form {
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+}
+
+header .content input {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 10px;
+}
+
+header .content form button {
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+header .content form button img {
+    width: 24px;
+    position: relative;
+    top: 5px;
+}
+
